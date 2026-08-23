@@ -1,14 +1,14 @@
 rgs = {
   rg1 = {
     rgname   = "mango"
-    location = "centralindia"
+    location = "southindia"
   }
 }
 
 stg = {
   stg = {
     stgname                  = "mangostorage785"
-    location                 = "centralindia"
+    location                 = "southindia"
     rgname                   = "mango"
     account_replication_type = "LRS"
     account_tier             = "Standard"
@@ -18,7 +18,7 @@ stg = {
 vnets = {
   vnet1 = {
     vnetname      = "mango_vnet"
-    location      = "centralindia"
+    location      = "southindia"
     rgname        = "mango"
     address_space = ["10.0.0.0/16"]
   }
@@ -35,7 +35,7 @@ sbnet = {
 vms = {
   vm1 = {
     vmname         = "mangovm"
-    location       = "centralindia"
+    location       = "southindia"
     rgname         = "mango"
     size           = "Standard_D2s_v3"
     admin_username = "adminuser"
@@ -45,7 +45,7 @@ vms = {
   }
   vm2 = {
     vmname         = "tangovm"
-    location       = "centralindia"
+    location       = "southindia"
     rgname         = "mango"
     size           = "Standard_D2s_v3"
     admin_username = "adminuser"

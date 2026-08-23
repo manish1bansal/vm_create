@@ -16,7 +16,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: env/prod
+        working-directory: Parent_Module
 
     steps:
       - name: Checkout code
